@@ -230,7 +230,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
 **ReactRootView**
 
-MyReactActivity 下的東西可以放在任何中，記得對應 AndroidManifest.xml 中的內容
+MyReactActivity 下的東西可以放在任何 Activity 中，記得對應 AndroidManifest.xml 中的內容
 
 github 的專案事都先放在 MainActivity 中做測試
 
