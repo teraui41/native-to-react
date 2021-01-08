@@ -10,7 +10,7 @@ class HelloWorld extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.hello}>Hello, World</Text>
+        <Text style={styles.hello}>React Native Hello</Text>
       </View>
     );
   }
@@ -28,6 +28,6 @@ var styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent(
-  'MyReactNativeApp',
+  'MainActivity',
   () => HelloWorld
 );
