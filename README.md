@@ -275,7 +275,7 @@ public class MyReactActivity extends Activity implements DefaultHardwareBackBtnH
 
 > 以上如果要 working 可以直接都加在 MainActivity 跑跑看
 
-## Add Activity to MainActivityMainfest
+## Add Activity to AndroidManifest
 
 如果是另外創的要記得加進去
 
