@@ -1,3 +1,7 @@
+# OSX
+#
+.DS_Store
+
 *.iml
 .gradle
 /local.properties
@@ -14,4 +18,32 @@
 .cxx
 local.properties
 
-/node_modules
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# CocoaPods
+/ios/Pods/
+/ios/**/GoogleService-Info.plist
+/android/**/google-services.json
