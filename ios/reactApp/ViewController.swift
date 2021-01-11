@@ -34,9 +34,8 @@ class ViewController: UIViewController {
         )
         let vc = UIViewController()
         vc.view = rootView
-        self.present(vc, animated: true, completion: nil)
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil) 
     }
-
-
 }
 

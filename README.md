@@ -488,6 +488,16 @@ class ViewController: UIViewController {
 > 這邊要注意的是 URL 這邊是 optional，所以在宣吿的時後要用 URL! 宣告
 > swift 的 optional 我還沒有看。待補。
 
+### 如果有多個 Views
+
+> Note that `RCTRootView bundleURL starts up a new JSC VM`. To save resources and simplify the communication between RN views in different parts of your native app, you can have `multiple views` powered by React Native that are associated with a single JS runtime. To do that, instead of using RCTRootView bundleURL, use `RCTBridge initWithBundleURL` to create a bridge and then use RCTRootView initWithBridge.
+
+### 生產環境的設置
+
+> When moving your app to **production**, the NSURL can point to a `pre-bundled` file on disk via something like let `mainBundle = NSBundle(URLForResource: "main" withExtension:"jsbundle")`. You can use the `react-native-xcode.sh` script in `node_modules/react-native/scripts/` to generate that pre-bundled file.
+
+
+
 ## Add React Code
 
 ```javascript
